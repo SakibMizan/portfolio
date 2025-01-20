@@ -36,19 +36,11 @@
     <!-- choose section start -->
     <!-- choose section end -->
 
-    <!-- footer section start -->
+    <!-- footer & copyright section start -->
     <div id="footer">
         @include('home.footer')
     </div>
-    <!-- footer section end -->
-
-    <!-- copyright section start -->
-    <div class="copyright_section" id="copyright">
-        <div class="container">
-            <p class="copyright_text">2025 &copy; All Rights Reserved. Design by <a href="https://html.design">Sakib Mizan</a></p>
-        </div>
-    </div>
-    <!-- copyright section end -->
+    <!-- footer & copyright section end -->
 
     <!-- Javascript files-->
     <script src="js/jquery.min.js"></script>

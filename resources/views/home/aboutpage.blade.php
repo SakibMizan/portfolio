@@ -242,10 +242,10 @@
             </div>
             <div class="social_icon">
                 <ul>
-                    <li><a href="#"><img src="images/fb-icon.png"></a></li>
-                    <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-                    <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
-                    <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+                    <li><a href="https://www.facebook.com" target="blank"><img src="images/fb-icon.png"></a></li>
+                    <li><a href="https://www.x.com" target="blank"><img src="images/twitter-icon.png"></a></li>
+                    <li><a href="https://www.linkedin.com/in/sakib-mizan-r44/" target="_blank"><img src="images/linkedin-icon.png"></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><img src="images/instagram-icon.png"></a></li>
                 </ul>
             </div>
         </div>
