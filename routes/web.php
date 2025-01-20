@@ -35,3 +35,5 @@ Route::get('/delete_aboutme/{id}', [AdminController::class, 'delete_aboutme']);
 Route::get('/edit_aboutme/{id}', [AdminController::class, 'edit_aboutme']);
 
 Route::post('/update_aboutme/{id}', [AdminController::class, 'update_aboutme']);
+
+Route::get('/homeaboutpage', [HomeController::class, 'homeaboutpage']);

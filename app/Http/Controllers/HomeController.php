@@ -31,8 +31,14 @@ class HomeController extends Controller
     public function homepage()
     {
         $post = Post::all();
-        $aboutme = Aboutme::first();
+        $aboutme = Aboutme::skip(1)->first();
         return view('home.homepage', compact('post', 'aboutme'));
+    }
+
+    public function homeaboutpage()
+    {
+        $aboutme = Aboutme::first();
+        return view('home.aboutpage', compact('aboutme'));
     }
 
     // About page

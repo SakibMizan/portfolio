@@ -57,5 +57,9 @@
     .about_img {
         width: 600px;
         height: 600px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 2px solid #000;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     }
 </style>

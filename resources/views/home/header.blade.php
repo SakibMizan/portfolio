@@ -16,7 +16,7 @@
                         <a class="nav-link" href="{{url('/')}}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="{{url('/homeaboutpage')}}">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">Projects</a>
@@ -40,13 +40,11 @@
         <div class="menu_main">
             <ul>
                 <li class="active"><a href="{{url('/')}}">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="{{url('/homeaboutpage')}}">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact us</a></li>
-                @guest
                 <li><a href="{{ route('login') }}">Login</a></li>
                 <li><a href="{{ route('register') }}">Register</a></li>
-                @endguest
             </ul>
         </div>
     </div>
