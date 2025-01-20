@@ -6,7 +6,7 @@
             </div>
             <div class="col-md-6 pt-5 pr-3">
                 <div class="about_taital_main text-center">
-                    <p>Bonjour, I am</p>
+                    <h3 class="text-secondary">Bonjour, I am</h3>
                     <h1 class="name_taital">{{$aboutme->name}}</h1>
                     <h3 class="title_taital">{{$aboutme->title}}</h3>
                     <a href="/myfiles/{{$aboutme->cv}}" download>
