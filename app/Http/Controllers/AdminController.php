@@ -166,7 +166,7 @@ class AdminController extends Controller
         $image = $request->image;
         if ($image) {
             $imageName = time() . '.' . $image->getClientOriginalExtension();
-            $image->move('aboutme_images', $imageName);
+            $image->move('myimages', $imageName);
             $data->image = $imageName;
         }
 
@@ -175,7 +175,7 @@ class AdminController extends Controller
         $cv = $request->file('cv');
         if ($cv) {
             $cvName = time() . '.' . $cv->getClientOriginalExtension();
-            $cv->move('aboutme_cvs', $cvName);
+            $cv->move('myfiles', $cvName);
             $data->cv = $cvName;
         }
 
