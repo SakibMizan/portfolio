@@ -87,7 +87,7 @@
                                 <a class="nav-link" href="{{url('/homeaboutpage')}}">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="services.html">Services</a>
+                                <a class="nav-link" href="{{url('/homeprojectspage')}}">Projects</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link " href="blog.html">Blog</a>
@@ -105,7 +105,7 @@
                     <ul>
                         <li class="active"><a href="{{url('/')}}">Home</a></li>
                         <li><a href="{{url('/homeaboutpage')}}">About</a></li>
-                        <li><a href="services.html">Services</a></li>
+                        <li><a href="{{url('/homeprojectspage')}}">Projects</a></li>
                         <li><a href="blog.html">Blog</a></li>
                         <li><a href="contact.html">Contact us</a></li>
                     </ul>

@@ -41,6 +41,12 @@ class HomeController extends Controller
         return view('home.aboutpage', compact('aboutme'));
     }
 
+    public function homeprojectspage()
+    {
+        $post = Post::all();
+        return view('home.projects', compact('post'));
+    }
+
     // About page
     public function about()
     {

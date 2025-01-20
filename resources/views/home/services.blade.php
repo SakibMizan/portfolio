@@ -1,6 +1,6 @@
 <div class="services_section layout_padding">
     <div class="container">
-        <h1 class="services_taital text-center">Projects</h1>
+        <h1 class="services_taital text-center">PROJECTS</h1>
         <p class="services_text text-center">Feel free to surf through my arts</p>
         <div class="services_section_2">
             <div class="row">
