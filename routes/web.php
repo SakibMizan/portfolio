@@ -6,6 +6,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'homepage']);
 
+Route::get('|', [AdminController::class, 'adminhomepage']);
+
 Route::get('/home', [HomeController::class, 'index'])->middleware('auth')->name('home');
 
 Route::get('/logout', [AdminController::class, 'logout'])->middleware('auth')->name('logout');

@@ -11,6 +11,11 @@ use Illuminate\Http\Request;
 
 class AdminController extends Controller
 {
+    public function adminhomepage()
+    {
+        return view('admin.adminhome');
+    }
+
     public function logout()
     {
         if (Auth::check()) {
