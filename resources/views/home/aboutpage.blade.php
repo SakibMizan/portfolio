@@ -44,6 +44,57 @@
             margin: 0 auto;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
         }
+
+        .card-img-top {
+            width: 100%;
+            height: 250px;
+            object-fit: contain;
+        }
+
+        .project-card {
+            border: 2px solid grey;
+            border-radius: 8px;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+            background-color: rgb(0, 30, 67);
+            color: white;
+            border: 2px solid bisque;
+        }
+
+        .project-card:hover .card-title {
+            color: white;
+        }
+
+        .card-body {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            text-align: center;
+        }
+
+        .card-title,
+        .card-text {
+            margin: 0;
+            padding: 0;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            margin-top: 20px;
+        }
     </style>
 </head>
 
@@ -102,7 +153,7 @@
                 </div>
                 <div class="col-md-6 pr-3">
                     <div class="about_taital_main text-center">
-                        <h1 class="about_taital">About Me</h1>
+                        <h1 class="about_taital">ABOUT ME</h1>
                         <p class="about_text text-justify">{{$aboutme->description}} </p>
                     </div>
                 </div>
@@ -110,18 +161,84 @@
         </div>
     </div>
     <!-- about section end -->
+    <!--education section start-->
+    <div class="services_section layout_padding">
+        <div class="container">
+            <h1 class="services_taital text-center">EDUCATION</h1>
+            <div class="services_section_2">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card h-100 text-center project-card">
+                            <img class="card-img-top" id="project-card" src="images/BUP.png" alt="BUP Logo">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title">Bachelor of Science</h3>
+                                <p class="card-text">Bangladesh University of Professionals<br>2020-Present</p>
+                                <a href="https://bup.edu.bd/" target="_blank">
+                                    <button class="btn btn-success">Visit BUP</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card h-100 text-center project-card">
+                            <img class="card-img-top" id="project-card" src="images/BAFSD.png" alt="BAFSD Logo">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title">Higher Secondary School Certificate</h3>
+                                <p class="card-text">BAF Shaheen College Dhaka<br>2018-2020</p>
+                                <a href="https://www.bafsd.edu.bd/" target="_blank">
+                                    <button class="btn btn-success">Visit BAFSD</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card h-100 text-center project-card">
+                            <img class="card-img-top" id="project-card" src="images/BAFSD.png" alt="BAFSD Logo">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title">Secondary School Certificate</h3>
+                                <p class="card-text">BAF Shaheen College Dhaka<br>2016-2018</p>
+                                <a href="https://www.bafsd.edu.bd/" target="_blank">
+                                    <button class="btn btn-success">Visit BAFSD</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--education section end-->
+    <!--experience section start-->
+    <div class="services_section layout_padding">
+        <div class="container">
+            <h1 class="services_taital text-center">EXPERIENCE</h1>
+            <div class="services_section_2">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card h-100 text-center project-card">
+                            <img class="card-img-top" id="project-card" src="images/skoder.png" alt="BUP Logo">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title">Intern Web Developer</h3>
+                                <p class="card-text">Skoder Technologies<br>Dec'24-Feb'25</p>
+                                <a href="https://www.skoder.co/" target="_blank">
+                                    <button class="btn btn-danger">Visit Skoder</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--experience section end-->
     <!-- footer section start -->
     <div class="footer_section layout_padding">
         <div class="container">
-            <div class="input_btn_main">
-                <input type="text" class="mail_text" placeholder="Enter your email" name="Enter your email">
-                <div class="subscribe_bt"><a href="#">Subscribe</a></div>
-            </div>
             <div class="location_main">
                 <div class="call_text"><img src="images/call-icon.png"></div>
-                <div class="call_text"><a href="#">Call +01 1234567890</a></div>
+                <div class="call_text"><a href="tel:{{$aboutme->phone}}">{{$aboutme->phone}}</a></div>
                 <div class="call_text"><img src="images/mail-icon.png"></div>
-                <div class="call_text"><a href="#">demo@gmail.com</a></div>
+                <div class="call_text"><a href="mailto:demo@gmail.com">{{$aboutme->email}}</a></div>
             </div>
             <div class="social_icon">
                 <ul>
@@ -137,7 +254,7 @@
     <!-- copyright section start -->
     <div class="copyright_section">
         <div class="container">
-            <p class="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design">Free html Templates</a></p>
+            <p class="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design">Sakib Mizan</a></p>
         </div>
     </div>
     <!-- copyright section end -->
