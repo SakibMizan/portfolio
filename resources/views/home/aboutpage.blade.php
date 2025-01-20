@@ -37,8 +37,8 @@
         .about_img {
             width: 600px;
             height: 600px;
-            object-fit: cover;
-            background-color: #000;
+            object-fit: contain;
+            background-color: bisque;
             display: block;
             border-radius: 8px;
             margin: 0 auto;
