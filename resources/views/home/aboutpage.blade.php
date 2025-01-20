@@ -102,7 +102,6 @@
                 </div>
                 <div class="col-md-6 pr-3">
                     <div class="about_taital_main text-center">
-                        <p>Bonjour, I am</p>
                         <h1 class="about_taital">About Me</h1>
                         <p class="about_text text-justify">{{$aboutme->description}} </p>
                     </div>
