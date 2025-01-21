@@ -93,7 +93,7 @@
                                 <a class="nav-link " href="{{url('/homeexperiencepage')}}">Experience</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="contact.html">Contact</a>
+                                <a class="nav-link " href="{{url('/homecontactpage')}}">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -107,7 +107,7 @@
                         <li><a href="{{url('/homeaboutpage')}}">About</a></li>
                         <li><a href="{{url('/homeprojectspage')}}">Projects</a></li>
                         <li><a href="{{url('/homeexperiencepage')}}">Experience</a></li>
-                        <li><a href="contact.html">Contact Me</a></li>
+                        <li><a href="{{url('/homecontactpage')}}">Contact Me</a></li>
                     </ul>
                 </div>
             </div>
