@@ -137,7 +137,7 @@ class AdminController extends Controller
 
     public function show_aboutme()
     {
-        $aboutme = AboutMe::all();
+        $aboutme = Aboutme::all();
         return view('admin.show_aboutme', compact('aboutme'));
     }
 
