@@ -3,23 +3,23 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="container">
-                    <h1 class="banner_taital">Adventure</h1>
-                    <p class="banner_text">There are many variations of passages of Lorem Ipsum available, but the majority have sufferedThere are ma available, but the majority have suffered</p>
-                    <div class="read_bt"><a href="#">Get A Quote</a></div>
+                    <h1 class="banner_taital">Dream</h1>
+                    <p class="banner_text">"Dreams are the whispers of your soul, daring you to chase the impossible and turn it into reality"</p>
+                    <p class="banner_text">"A dream is the soul’s way of reminding you that the limits you see are only the ones you accept"</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
-                    <h1 class="banner_taital">Adventure</h1>
-                    <p class="banner_text">There are many variations of passages of Lorem Ipsum available, but the majority have sufferedThere are ma available, but the majority have suffered</p>
-                    <div class="read_bt"><a href="#">Get A Quote</a></div>
+                    <h1 class="banner_taital">Dream</h1>
+                    <p class="banner_text">"Dreams are the whispers of your soul, daring you to chase the impossible and turn it into reality"</p>
+                    <p class="banner_text">"A dream is the soul’s way of reminding you that the limits you see are only the ones you accept"</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="container">
-                    <h1 class="banner_taital">Adventure</h1>
-                    <p class="banner_text">There are many variations of passages of Lorem Ipsum available, but the majority have sufferedThere are ma available, but the majority have suffered</p>
-                    <div class="read_bt"><a href="#">Get A Quote</a></div>
+                    <h1 class="banner_taital">Dream</h1>
+                    <p class="banner_text">"Dreams are the whispers of your soul, daring you to chase the impossible and turn it into reality"</p>
+                    <p class="banner_text">"A dream is the soul’s way of reminding you that the limits you see are only the ones you accept"</p>
                 </div>
             </div>
         </div>
