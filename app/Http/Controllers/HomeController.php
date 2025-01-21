@@ -50,7 +50,8 @@ class HomeController extends Controller
 
     public function homeexperiencepage()
     {
-        return view('home.experience');
+        $aboutme = Aboutme::first();
+        return view('home.experience', compact('aboutme'));
     }
 
     // About page
