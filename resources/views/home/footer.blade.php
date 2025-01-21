@@ -21,7 +21,7 @@
 <!-- copyright section start -->
 <div class="copyright_section">
     <div class="container">
-        <p class="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design">Sakib Mizan</a></p>
+        <p class="copyright_text">2025 &copy; All Rights Reserved. Design by <a href="{{ route('login') }}">Sakib Mizan</a></p>
     </div>
 </div>
 <!-- copyright section end -->

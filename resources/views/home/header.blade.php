@@ -47,8 +47,6 @@
                 <li><a href="{{url('/homeprojectspage')}}">Projects</a></li>
                 <li><a href="{{url('/homeexperiencepage')}}">Experience</a></li>
                 <li><a href="{{url('/homecontactpage')}}">Contact Me</a></li>
-                <li><a href="{{ route('login') }}">Login</a></li>
-                <li><a href="{{ route('register') }}">Register</a></li>
             </ul>
         </div>
     </div>
