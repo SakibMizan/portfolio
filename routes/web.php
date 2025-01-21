@@ -42,4 +42,4 @@ Route::get('/homeprojectspage', [HomeController::class, 'homeprojectspage']);
 
 Route::get('/homeexperiencepage', [HomeController::class, 'homeexperiencepage']);
 
-Route::get('/homecontactpage', [HomeController::class . 'homecontactpage']);
+Route::get('/homecontactpage', [HomeController::class, 'homecontactpage']);

@@ -59,24 +59,4 @@ class HomeController extends Controller
         $aboutme = Aboutme::first();
         return view('home.contact', compact('aboutme'));
     }
-
-    // About page
-    public function about()
-    {
-        $aboutme = Aboutme::first();  // Assuming there's only one record
-        return view('home.about', compact('aboutme'));
-    }
-
-    // Projects page
-    public function services()
-    {
-        $post = Post::all();
-        return view('home.services', compact('projects'));
-    }
-
-    // Contact page
-    public function contact()
-    {
-        return view('home.contact');
-    }
 }
