@@ -15,10 +15,4 @@
         <li><a href="{{url('post_aboutme')}}"> <i class="icon-padnote"></i>Add About Me</a></li>
         <li><a href="{{url('show_aboutme')}}"> <i class="icon-padnote"></i>Show About Me</a></li>
         <li><a href="{{ url('/') }}"> <i class="icon-logout"></i>Portfolio Home Page</a></li>
-    </ul><span class="heading">Extras</span>
-    <ul class="list-unstyled">
-        <li> <a href="#"> <i class="icon-settings"></i>Demo </a></li>
-        <li> <a href="#"> <i class="icon-writing-whiteboard"></i>Demo </a></li>
-        <li> <a href="#"> <i class="icon-chart"></i>Demo </a></li>
-    </ul>
 </nav>

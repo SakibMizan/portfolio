@@ -39,3 +39,5 @@ Route::post('/update_aboutme/{id}', [AdminController::class, 'update_aboutme']);
 Route::get('/homeaboutpage', [HomeController::class, 'homeaboutpage']);
 
 Route::get('/homeprojectspage', [HomeController::class, 'homeprojectspage']);
+
+Route::get('/homeexperiencepage', [HomeController::class, 'homeexperiencepage']);

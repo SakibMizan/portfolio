@@ -22,6 +22,9 @@
                         <a class="nav-link" href="{{url('/homeprojectspage')}}">Projects</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="{{url('/homeexperiencepage')}}">Experience</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
@@ -42,6 +45,7 @@
                 <li class="active"><a href="{{url('/')}}">Home</a></li>
                 <li><a href="{{url('/homeaboutpage')}}">About</a></li>
                 <li><a href="{{url('/homeprojectspage')}}">Projects</a></li>
+                <li><a href="{{url('/homeexperiencepage')}}">Experience</a></li>
                 <li><a href="#contact">Contact us</a></li>
                 <li><a href="{{ route('login') }}">Login</a></li>
                 <li><a href="{{ route('register') }}">Register</a></li>
