@@ -48,6 +48,11 @@ class HomeController extends Controller
         return view('home.projects', compact('post', 'aboutme'));
     }
 
+    public function homeexperiencepage()
+    {
+        return view('home.experience');
+    }
+
     // About page
     public function about()
     {
