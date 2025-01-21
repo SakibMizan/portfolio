@@ -107,7 +107,6 @@
                         <li><a href="{{url('/homeaboutpage')}}">About</a></li>
                         <li><a href="{{url('/homeprojectspage')}}">Projects</a></li>
                         <li><a href="{{url('/homeexperiencepage')}}">Experience</a></li>
-                        <li><a href="blog.html">Blog</a></li>
                         <li><a href="contact.html">Contact Me</a></li>
                     </ul>
                 </div>
