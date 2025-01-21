@@ -54,6 +54,12 @@ class HomeController extends Controller
         return view('home.experience', compact('aboutme'));
     }
 
+    public function homecontactpage()
+    {
+        $aboutme = Aboutme::first();
+        return view('home.contact', compact('aboutme'));
+    }
+
     // About page
     public function about()
     {
