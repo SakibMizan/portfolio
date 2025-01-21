@@ -41,3 +41,5 @@ Route::get('/homeaboutpage', [HomeController::class, 'homeaboutpage']);
 Route::get('/homeprojectspage', [HomeController::class, 'homeprojectspage']);
 
 Route::get('/homeexperiencepage', [HomeController::class, 'homeexperiencepage']);
+
+Route::get('/homecontactpage', [HomeController::class . 'homecontactpage']);
